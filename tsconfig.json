@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es2020",
+    "module": "es6",
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": ["." ],
+  "exclude": [
+    "test/**/*",
+    "dist/**/*",
+    "node_modules"
+  ]
+}
